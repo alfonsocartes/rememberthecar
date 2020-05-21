@@ -20,6 +20,7 @@ final private class BannerVC: UIViewControllerRepresentable  {
 
         let viewController = UIViewController()
         
+        // Comment either one or the other for testing or production
         view.adUnitID = bannerID
         //view.adUnitID = bannerIDTEST
         
