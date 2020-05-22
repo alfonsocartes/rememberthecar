@@ -132,6 +132,9 @@ struct ContentView: View {
                     UIApplication.shared.open(URL(string:UIApplication.openSettingsURLString)!)
                 })
         }
+        .onAppear() {
+            self.loadData()
+        }
     }
     
     func getUserLocation() -> CLLocationCoordinate2D? {
