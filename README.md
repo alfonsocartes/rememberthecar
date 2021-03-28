@@ -10,8 +10,8 @@ Technologies used:
 
 - Swift
 - SwiftUI
-- Cocoapods
+- Cocoapods (REMOVED)
 
 **Cocoa Pods:**
 
-- Google Admob
+- Google Admob (REMOVED)
