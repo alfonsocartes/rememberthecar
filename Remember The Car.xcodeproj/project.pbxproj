@@ -19,8 +19,6 @@
 		05AC1D1D2476582B00453C74 /* EditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05AC1D162476582B00453C74 /* EditView.swift */; };
 		05AC1D1E2476582B00453C74 /* MKPointAnnotation-Codable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05AC1D172476582B00453C74 /* MKPointAnnotation-Codable.swift */; };
 		05AC1D1F2476582B00453C74 /* TextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05AC1D182476582B00453C74 /* TextView.swift */; };
-		05AC1D2124765B3800453C74 /* BannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05AC1D2024765B3800453C74 /* BannerView.swift */; };
-		E9B2EBCA7007025ACD8F40A5 /* libPods-Remember The Car.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DCFE3778FB2612D66DDEDBAF /* libPods-Remember The Car.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,10 +36,6 @@
 		05AC1D162476582B00453C74 /* EditView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditView.swift; sourceTree = "<group>"; };
 		05AC1D172476582B00453C74 /* MKPointAnnotation-Codable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "MKPointAnnotation-Codable.swift"; sourceTree = "<group>"; };
 		05AC1D182476582B00453C74 /* TextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextView.swift; sourceTree = "<group>"; };
-		05AC1D2024765B3800453C74 /* BannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerView.swift; sourceTree = "<group>"; };
-		1B9834E089F7512A3EF497E3 /* Pods-Remember The Car.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Remember The Car.debug.xcconfig"; path = "Target Support Files/Pods-Remember The Car/Pods-Remember The Car.debug.xcconfig"; sourceTree = "<group>"; };
-		65312DCE23965598E420A547 /* Pods-Remember The Car.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Remember The Car.release.xcconfig"; path = "Target Support Files/Pods-Remember The Car/Pods-Remember The Car.release.xcconfig"; sourceTree = "<group>"; };
-		DCFE3778FB2612D66DDEDBAF /* libPods-Remember The Car.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Remember The Car.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,7 +43,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E9B2EBCA7007025ACD8F40A5 /* libPods-Remember The Car.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,8 +54,6 @@
 			children = (
 				05AC1CFD247657E200453C74 /* Remember The Car */,
 				05AC1CFC247657E200453C74 /* Products */,
-				595BBF613DF695C7C47C2F5A /* Pods */,
-				C7D6B76DA20AB913997D0D54 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -82,7 +73,6 @@
 				05AC1D162476582B00453C74 /* EditView.swift */,
 				05AC1D152476582B00453C74 /* ImagePicker.swift */,
 				05AC1D182476582B00453C74 /* TextView.swift */,
-				05AC1D2024765B3800453C74 /* BannerView.swift */,
 				05AC1D172476582B00453C74 /* MKPointAnnotation-Codable.swift */,
 				05AC1D142476582B00453C74 /* MKPointAnnotation-ObservableObject.swift */,
 				05AC1CFE247657E200453C74 /* AppDelegate.swift */,
@@ -103,24 +93,6 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		595BBF613DF695C7C47C2F5A /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				1B9834E089F7512A3EF497E3 /* Pods-Remember The Car.debug.xcconfig */,
-				65312DCE23965598E420A547 /* Pods-Remember The Car.release.xcconfig */,
-			);
-			name = Pods;
-			path = Pods;
-			sourceTree = "<group>";
-		};
-		C7D6B76DA20AB913997D0D54 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				DCFE3778FB2612D66DDEDBAF /* libPods-Remember The Car.a */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -128,7 +100,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 05AC1D0F247657E300453C74 /* Build configuration list for PBXNativeTarget "Remember The Car" */;
 			buildPhases = (
-				E4FDC6461061985F44FEC888 /* [CP] Check Pods Manifest.lock */,
 				05AC1CF7247657E200453C74 /* Sources */,
 				05AC1CF8247657E200453C74 /* Frameworks */,
 				05AC1CF9247657E200453C74 /* Resources */,
@@ -149,7 +120,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1140;
-				LastUpgradeCheck = 1140;
+				LastUpgradeCheck = 1240;
 				ORGANIZATIONNAME = cartes.dev;
 				TargetAttributes = {
 					05AC1CFA247657E200453C74 = {
@@ -188,31 +159,6 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
-/* Begin PBXShellScriptBuildPhase section */
-		E4FDC6461061985F44FEC888 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Remember The Car-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
 		05AC1CF7247657E200453C74 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -226,7 +172,6 @@
 				05AC1D1A2476582B00453C74 /* MapView.swift in Sources */,
 				05AC1D1E2476582B00453C74 /* MKPointAnnotation-Codable.swift in Sources */,
 				05AC1D192476582B00453C74 /* ContentView.swift in Sources */,
-				05AC1D2124765B3800453C74 /* BannerView.swift in Sources */,
 				05AC1D1F2476582B00453C74 /* TextView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -271,6 +216,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -331,6 +277,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -361,7 +308,6 @@
 		};
 		05AC1D10247657E300453C74 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1B9834E089F7512A3EF497E3 /* Pods-Remember The Car.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -383,7 +329,6 @@
 		};
 		05AC1D11247657E300453C74 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 65312DCE23965598E420A547 /* Pods-Remember The Car.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

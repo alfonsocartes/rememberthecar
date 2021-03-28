@@ -98,7 +98,7 @@ struct EditView: View {
                             }
                         }
                     }
-                    BannerView()
+//                    BannerView()
                     HStack {
                         Image(systemName: "map")
                             .font(.headline)

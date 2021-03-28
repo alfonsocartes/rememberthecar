@@ -115,7 +115,7 @@ struct ContentView: View {
                 }
                 .padding(.trailing, 20)
                 .padding(.bottom, 20)
-                 BannerView()
+                //BannerView()
                 .padding(.bottom, 30)
             } // VStack for Banner View
         }
